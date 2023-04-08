@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body,
+html {
+    height: 100%;
+    font-size: auto;
+}
+
+.titles{
+    font-family: 'Lobster', cursive;
+}
+
+.background {
+    background-image: url("../pictures/background.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transform: scale(1.1);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+}
+
+.short {
+    width: 20% !important;
+}
+
+.small {
+    margin: 2px !important;
+    float: right !important;
+    padding: 0.5% !important;
+    font-size: 12px !important;
+}
+
+.small2 {
+    margin: 2px !important;
+    padding: 0.5% !important;
+    font-size: 12px !important;
+    border-radius: 5px;
+}
+
+.small3 {
+    width: 18% !important;
+}
+
+.com {
+    border-radius: 10px !important;
+    float: right !important;
+}
+
+.table {
+    margin-top: 2%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.alertCent {
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.input-group {
+    width: 50% !important;
+}
+
+.wrapper {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.126);
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid lightslategray;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: auto;
+    /*1080px*/
+    box-sizing: border-box;
+    border: 3px solid lightslategray;
+    box-shadow: 0 0 1px lightslategray, 0 0 2px lightslategray, 0 0 6px lightslategray, 0 0 12px lightslategray, inset 0 0 1px lightslategray, inset 0 0 2px lightslategray, inset 0 0 6px lightslategray, inset 0 0 12px lightslategray;
+}
+
+.cont2 {
+    display: -webkit-flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.div-left {
+    position: relative;
+    margin-left: 72%;
+    width: auto;
+}
+
+.fLeft {
+    float: left;
+    margin: 3px;
+}
+
+.row {
+    margin: 0.5% !important;
+}
+
+.carousel-item {
+    width: 1000px;
+    height: 400px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.carousel-item > img{
+    width:100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+}
+
+.card:hover {
+    border: 3px solid rgba(0, 255, 255, 0.47);
+    box-shadow: 0 0 1px rgba(0, 255, 255, 0.47), 0 0 2px rgba(0, 255, 255, 0.47), 0 0 6px rgba(0, 255, 255, 0.47), 0 0 12px rgba(0, 255, 255, 0.47), inset 0 0 1px rgba(0, 255, 255, 0.47), inset 0 0 2px rgba(0, 255, 255, 0.47), inset 0 0 6px rgba(0, 255, 255, 0.47), inset 0 0 12px rgba(0, 255, 255, 0.47);
+}
+
+.card > img {
+    width: auto;
+    height: 18vw;
+    object-fit: cover;
+}
+
+
+.carousel {
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid rgba(119, 136, 153, 0.49);
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: auto;
+    /*1080px*/
+    box-sizing: border-box;
+    border: 3px solid rgba(119, 136, 153, 0.49);
+    box-shadow: 0 0 1px rgba(119, 136, 153, 0.49), 0 0 2px rgba(119, 136, 153, 0.49), 0 0 6px rgba(119, 136, 153, 0.49), 0 0 12px rgba(119, 136, 153, 0.49), inset 0 0 1px rgba(119, 136, 153, 0.49), inset 0 0 2px rgba(119, 136, 153, 0.49), inset 0 0 6px rgba(119, 136, 153, 0.49), inset 0 0 12px rgba(119, 136, 153, 0.49);
+}
