@@ -1,1 +1,1 @@
-Progetto rentalCar realizzato con Servlet e JSP.
+Progetto rentalCar realizzato con Servlet e JSP, database MySQL e ORM Hibernate. 
