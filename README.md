@@ -1,8 +1,7 @@
 # rentalCar
-In questa repository verrà caricato il progetto rentalCar nelle varie tecnologie in cui è stato realizzato.
+In questa repository verrà caricato il progetto rentalCar nelle varie tecnologie in cui è stato realizzato (Servlet e JSP, Spring MVC e JSP).
 
-RentalCar simula un concessionario dove si possono affittare dei veicoli, registrandosi e loggando sarà possibile visualizzare il parco auto
-e i veicoli da poter affittare, sarà inoltre possibile visualizzare quali veicoli sono stati affittati.
+RentalCar simula un concessionario dove si possono affittare dei veicoli, registrandosi e loggando sarà possibile visualizzare il Parco Auto e i veicoli da poter prenotare, sarà inoltre possibile visualizzare quali veicoli sono stati prenotati.
 <h1> Homepage Customer</h1>
 
 ![Federico](https://github.com/FedericoMNDS/rentalCar/assets/103659327/e84ff047-f967-4008-8bcd-38128d81d7ce)
